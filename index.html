@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <section class="header">
+        <br><h1><u>Registration</u></h1>
+        <div class="container">
+            
+            
+            <form action="./registration.html">
+            <i class="fa-solid fa-user"></i> <label for="name"><b>Name</b></label>
+            <input  type="text"  autocomplete="on" placeholder="Enter Name" name="name"  required>
+            
+            <i class="fa-solid fa-envelope"></i> <label for="email"><b>Email</b></label>
+            <input type="email" autocomplete="on" placeholder="Enter Email" name="email" class="input.box" required>
+          
+            <i class="fa-solid fa-phone"></i> <label for="contact" >Contact</label><br>
+            <input type="tel" autocomplete="on" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{10}"  required><br>
+
+            <i class="fa-solid fa-user"></i> <label for="Username"><b>Username</b></label>
+            <input type="text" autocomplete="on" placeholder="Enter Username" name="Username" required>
+
+            <i class="fa-solid fa-lock"></i> <label for="password"><b>Password</b></label>
+            <input type="password" autocomplete="on" placeholder="Enter Password" name="Password" required>
+
+            <i class="fa-solid fa-lock"></i> <label for="password"><b>Password again</b></label>
+            <input type="password" autocomplete="on" placeholder="Enter Password again" name="Password" required>
+
+            <a href="./registration.html">
+            <button type="submit">Sign Up</button>
+            </a>
+        </form>
+          </div>
+
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }    
+    </script>
+    
+</body>
+</html>

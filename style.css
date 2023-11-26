@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding-top: px;
+}
+.header{
+    min-height:100vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(52, 48, 55, 0.7)),url(./i11.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+}
+
+.header h1{
+  font-weight: 200;
+  right: 50px;
+  color: 	#F0F8FF;
+  padding-left: 41px;
+}
+.header h2{
+  padding-left: 10px;
+}
+.container {
+    width: 450px;
+    padding: 20px;
+    background-color:linear-gradient(rgba(4,9,30,0.7),rgba(52, 48, 55, 0.7));
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #F0F8FF;
+    font-size: 20px;
+    display:-ms-grid;
+    background: transparent;
+    font-weight: 100;
+
+  }
+  label{
+    color: #F0F8FF;
+    font-weight: 50;
+  }
+
+  input[type=text], input[type=email], input[type=tel], input[type=password]{
+    width: 105%;
+    position: relative;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display:inline-table;
+    background:transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #F0F8FF;
+    transition: width 0.4s ease-in-out;
+    color: #F0F8FF;
+  }
+  input .input-box{
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #F0F8FF;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=password]:focus {
+    background: transparent;
+    color: #F0F8FF;
+    outline: none;
+  }
+  input[type=text]:hover, input[type=email]:hover, input[type=tel]:hover, input[type=password]:hover{
+    background: transparent;
+    color: #F0F8FF;
+    opacity: 0.8;
+  }
+  
+  button {
+    background-color:	#1E90FF;
+    color: white;
+    padding: 14px 20px;
+    margin:  0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 1;
+    position:relative;
+    left: 40%;
+    font-size: 15px;
+    outline: transparent;
+  }
+  
+  button:hover {
+    opacity:0.8;
+  }
+
+  h1{
+    color: #F0F8FF;
+    text-align: center;
+    font-size: 60px;
+  }
+  h2{
+    color: #F0F8FF;
+    text-align: center;
+    font-size: 30px;
+  }
+  .regist h1{
+    text-align: center;
+    color: black;
+  }
